@@ -1,0 +1,189 @@
+html,
+body
+{
+    background-image: url("../images/background.jpg");
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+}
+
+h1,
+h2,
+h3 {
+    color: #238acb;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+a {
+    color: #238acb;
+}
+
+a img {
+    border: none;
+}
+
+pre {
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    background: #646464;
+}
+
+.horizon {
+    line-height: 0;
+    z-index: 100;
+    width: 3000px;
+}
+
+.middle {
+    z-index: 250;
+    line-height: 0;
+    width: 4500px;
+}
+
+.front {
+    z-index: 500;
+    top: 150px;
+    width: 6000px;
+}
+
+.intro {
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    padding-right: 50px;
+    background: url('../images/scroll.png') no-repeat right 5px;
+}
+
+.page {
+    top: 0px;
+    width: 500px;
+    background: white;
+    padding: 10px 30px;
+    border: 1px #eee solid;
+    position: absolute;
+}
+
+.description {
+    left: 1300px;
+}
+
+.myphoto {
+    width:130px;
+    height:210px;
+    float:right;
+}
+
+.documentation {
+    left: 2200px;
+    width: 1100px;
+}
+
+/* Table */
+#data-table {
+  border: none; /* Turn off all borders */
+  border-top: 1px solid #ccc;
+  width: 940px;
+}
+#data-table caption {
+  color: #545454;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  text-align: center;
+}
+#data-table thead {
+  background: #f0f0f0;
+}
+#data-table th, 
+#data-table td {
+  border: none; /* Turn off all borders */
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+  padding: 10px;
+  text-align: left; 
+}
+
+.skills {
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.glyphicon.glyphicon-ok-circle {
+    font-size:18px;
+}
+
+.download
+{
+    width: 500px;
+    left: 3700px;
+}
+
+.education {
+    height:550px;
+}
+
+img.ucfcrest {
+    height:100px;
+    width:100px;
+    float:left;
+}
+
+p.collegeinfo {
+    font-size:11px;
+    font-family:helvetica;
+    text-decoration:bold;
+}
+
+.workexperience
+{
+    width: 1200px;
+    left: 4600px;
+}
+
+/*work experience */
+.workboxes {
+  height:500px;
+}
+
+.boxes {
+  float:left;
+  width:320px;
+  height:400px;
+  padding:10px;
+  border:3px solid gray;
+  margin:20px;
+}
+
+.glyphicon.glyphicon-tags {
+  font-size:75px;
+  padding:15px;
+}
+
+.glyphicon.glyphicon-briefcase {
+  font-size:75px;
+  padding:15px;
+}
+
+.glyphicon.glyphicon-file {
+  font-size:75px;
+  padding:15px;
+}
+
+.info {
+  position:absolute;
+  width:300px;
+  text-align:center;
+}
+
+h2.exp {
+    text-align:center;
+}
